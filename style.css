@@ -1,12 +1,12 @@
 /*BEGIN Fight Stick Controller Styling*/
 .controller.fight-stick {
-    background: url(https://raw.githubusercontent.com/lastxserenade/info/master/images/base.svg) center no-repeat;
+    background: url('https://raw.githubusercontent.com/lastxserenade/info/master/images/base.svg') center no-repeat;
     height: 534px;
     width: 1122px;
 }
 
 .fight-stick.disconnected {
-    background: url(https://raw.githubusercontent.com/lastxserenade/info/master/images/base.svg) no-repeat;
+    background: url('https://raw.githubusercontent.com/lastxserenade/info/master/images/base.svg') no-repeat;
 }
 
 .fight-stick.disconnected div {
@@ -185,7 +185,7 @@
     height: 221px;
     top: 199px;
     left: 192px;
-    background: url(https://raw.githubusercontent.com/lastxserenade/info/master/images/stick.svg)
+    background: url('https://raw.githubusercontent.com/lastxserenade/info/master/images/stick.svg')
 }
 
 .fight-stick .fstick.up {
