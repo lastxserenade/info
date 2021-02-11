@@ -1,0 +1,36 @@
+.playedIndicator { background: rgba(13, 117, 133,.75); }
+
+:root {--accent:  13, 117, 133;}
+
+.itemProgressBar {
+  height: 5px;
+  rgba(13, 117, 133,.5)
+}
+
+.playbackProgress>div, .itemProgressBarForeground {
+    background-color: rgba(var(--accent), 0.75) !important;
+}
+
+.transcodingProgress>div {
+    background-color: rgba(var(--accent), 0.35) !important;
+}
+
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {background:none; background-color:rgba(0, 0, 0, 0);}
+
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {background:none; 
+background-color:rgba(0, 0, 0, 0);}
+
+.mainDrawer {
+background-color: rgba(255, 255, 255, 0.3);
+-webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.backdropImage { display: none; }
+
+.backgroundContainer {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("https://i.ytimg.com/vi/avCWDDox1nE/maxresdefault.jpg");
+  filter: blur(10px);
+  background-size: cover;
+}
